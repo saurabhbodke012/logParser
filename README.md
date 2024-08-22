@@ -3,8 +3,8 @@
 Overview:
 
 This program Parse a file containing flow log data and maps each row to a tag based on a lookup table. The lookup table is defined as a csv file, and it has 3 columns, dstport,protocol,tag. The dstport and protocol combination decide what tag can be applied.The program generates an output file with:
-1.Count of matches for each tag.
-2.Count of matches for each port/protocol combination.
+- Count of matches for each tag.
+- Count of matches for each port/protocol combination.
 
 Assumptions: 
 
