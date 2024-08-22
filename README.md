@@ -18,6 +18,7 @@ Assumptions:
 - The lookup file contains valid mappings for the tag assignment.
 - A single port/protocol combination in the lookup table can map to multiple tags
 - There are no duplicate entries for the same tag under the same port/protocol combination
+- "6", "tcp", "17", "udp", "1", "icmp" (Only checking for these protocols)
 
 Compilation and Execution: 
 
